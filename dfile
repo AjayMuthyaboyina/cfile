@@ -29,3 +29,4 @@ printf("%s\n",stud3[3].name);
 printf("%s\n",stud3[3].content);
 return 0;
 }
+successfully executed

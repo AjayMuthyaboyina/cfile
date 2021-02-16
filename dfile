@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+struct students
+{
+char id[10];
+char name[20];
+char content[100];
+};
+int main()
+{
+struct students stud1[3],stud2[3],stud3[3];
+strcpy(stud1[3].id,"7036800234");
+strcpy(stud1[3].name,"Ajai");
+strcpy(stud1[3].content,"Ajai is a good boy");
+strcpy(stud2[3].id,"9666882636");
+strcpy(stud2[3].name,"Sachin");
+strcpy(stud2[3].content,"Sachin is a great crickter");
+strcpy(stud3[3].id,"8501850318");
+strcpy(stud3[3].name,"Rohith");
+strcpy(stud3[3].content,"Rohith is a father of dady hunderds");
+printf("%s\n",stud1[3].id);
+printf("%s\n",stud1[3].name);
+printf("%s\n",stud1[3].content);
+printf("%s\n",stud2[3].id);
+printf("%s\n",stud2[3].name);
+printf("%s\n",stud2[3].content);
+printf("%s\n",stud3[3].id);
+printf("%s\n",stud3[3].name);
+printf("%s\n",stud3[3].content);
+return 0;
+}
